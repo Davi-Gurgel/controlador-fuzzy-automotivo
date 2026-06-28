@@ -1,9 +1,11 @@
 # Controlador Fuzzy (Mamdani) — Compra Automotiva
 
 **Mini-Projeto 2** da disciplina de Sistemas Baseados em Conhecimento — **Caminho B**:
-reescrita do [Mini-Projeto 1](../sistema-de-regras) (sistema de regras IF–THEN nítidas
-em `experta`) substituindo a pontuação crisp por **inferência fuzzy Mamdani** com
+reescrita do **Mini-Projeto 1** (sistema de regras IF–THEN nítidas em `experta`)
+substituindo a pontuação crisp por **inferência fuzzy Mamdani** com
 [`scikit-fuzzy`](https://pythonhosted.org/scikit-fuzzy/).
+
+> 📹 **Vídeo de apresentação:** _(adicionar link aqui antes de postar no Classroom)_
 
 ## Membros do grupo
 
@@ -57,6 +59,9 @@ graduado por R4–R14:
 | **seg alta**, efic. ruim | R12 | R14 | R1 |
 | **seg alta**, efic. mediana | R5 | R8 | R1 |
 | **seg alta**, efic. ótima | R4 | R6 | R1 |
+
+> Cobertura verificada empiricamente: varredura de **13.671 pontos** do espaço de
+> entradas — **0 lacunas** (todo ponto dispara ≥1 regra) e saída sempre defuzzificável.
 
 ## Casos de teste
 
