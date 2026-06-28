@@ -65,8 +65,8 @@ graduado por R4–R14:
 
 ## Casos de teste
 
-`fuzzy_compra.py` traz **3 casos do controlador** (entradas → saída defuzzificada →
-interpretação comentada) e a aplicação aos **4 perfis do MP1**:
+O notebook traz **3 casos do controlador** (entradas → saída defuzzificada →
+interpretação comentada no código) e a aplicação aos **4 perfis do MP1**:
 
 | Caso (controlador) | Entradas | Adequação | Leitura |
 |---|---|---|---|
@@ -83,19 +83,13 @@ prefere o *SUV Híbrido Urbano* (eficiente, no orçamento, segurança máxima) a
 Pré-requisito: [`uv`](https://docs.astral.sh/uv/) instalado. O `uv` resolve as
 dependências do `pyproject.toml` automaticamente; **não é preciso criar venv à mão**.
 
-### Script (saída em texto, com asserts dos casos de teste)
-
-```bash
-uv run python fuzzy_compra.py
-```
-
-### Notebook (com gráficos das funções de pertinência)
+### Abrir o notebook (com gráficos das funções de pertinência)
 
 ```bash
 uv run --with jupyter --with matplotlib jupyter lab SBC_Fuzzy_Compra_Automotiva.ipynb
 ```
 
-Para executar o notebook inteiro de uma vez:
+Para executar o notebook inteiro de uma vez (gera as saídas e valida os `assert`s dos casos de teste):
 
 ```bash
 uv run --with jupyter --with matplotlib \
