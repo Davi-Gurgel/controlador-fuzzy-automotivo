@@ -5,7 +5,7 @@ reescrita do **Mini-Projeto 1** (sistema de regras IF–THEN nítidas em `expert
 substituindo a pontuação crisp por **inferência fuzzy Mamdani** com
 [`scikit-fuzzy`](https://pythonhosted.org/scikit-fuzzy/).
 
-> 📹 **Vídeo de apresentação:** _(adicionar link aqui antes de postar no Classroom)_
+> 📹 **Vídeo de apresentação:** https://drive.google.com/file/d/1YYQTK6TWknI29un-DVLWcrwUUB6nVN0S/view?usp=sharing
 
 ## Membros do grupo
 
